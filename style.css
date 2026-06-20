@@ -19,12 +19,20 @@ img {
 
 .row {
     width: 100%;
-    max-width: 1200;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 section {
     padding: 0 32px;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+.purple {
+    color: #6415ff;
 }
 
 /* 
@@ -110,4 +118,24 @@ nav {
 
 .nav__link--primary:hover {
     background-color: rgba(80, 17, 204);
+}
+
+/* 
+
+HEADER
+
+*/
+
+header .row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header__description {
+    width: 40%;
+}
+
+.header__img--wrapper {
+    width: 60%;
 }
