@@ -377,3 +377,30 @@ QUALITY
     z-index: 0;
     display: block;
 }
+
+/* 
+
+STEPS
+
+*/
+
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steps__img--wrapper {
+    width: 50%;
+    position: relative;
+    display: flex;
+}
+
+.steps__grid {
+    position: absolute;
+    bottom: 0;
+}
+
+.steps__description {
+    width: 50%;
+}
