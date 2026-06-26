@@ -398,9 +398,54 @@ STEPS
 
 .steps__grid {
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
 }
 
 .steps__description {
     width: 50%;
+    padding: 32px 0;
+    padding-left: 64px;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.step__number {
+    margin-right: 24px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+    color: #cbd5e0;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+}
+
+.step__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #243e63;
+    line-height: 1;
+}
+
+.step__para {
+    font-size: 14px;
+    margin-top: 12px;
+    color: #718096;
+    font-weight: 500;
+    line-height: 2;
 }
