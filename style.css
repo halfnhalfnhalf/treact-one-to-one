@@ -518,3 +518,7 @@ VALUES
     line-height: 1.6;
     color: #718096;
 }
+
+#values .btn {
+    margin-top: 48px;
+}
