@@ -467,6 +467,10 @@ VALUES
     padding: 32px 64px 32px 0;
 }
 
+.values__img {
+    width: 50%;
+}
+
 .values__list {
     display: flex;
 }
