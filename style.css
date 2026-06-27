@@ -449,3 +449,72 @@ STEPS
     font-weight: 500;
     line-height: 2;
 }
+
+/* 
+
+VALUES
+
+*/
+
+#values .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.values__description {
+    width: 50%;
+    padding: 32px 64px 32px 0;
+}
+
+.values__list {
+    display: flex;
+}
+
+.value {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value__title {
+    display: flex;
+    align-items: center;
+}
+
+.value:nth-child(1) .value__img--wrapper {
+    background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img--wrapper {
+    background-color: #feb2b2;
+}
+
+.value__img--wrapper {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.value__img {
+    width: 20px;
+    opacity: .5;
+}
+
+.value__name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 12px;
+}
+
+.value__para {
+    font-size: 16px;
+    margin-top: 24px;
+    line-height: 1.6;
+    color: #718096;
+}
