@@ -526,3 +526,20 @@ VALUES
 #values .btn {
     margin-top: 48px;
 }
+
+/* 
+
+PRICING
+
+*/
+
+#pricing .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pricing .section__para {
+    text-align: center;
+    max-width: 576px;
+}
