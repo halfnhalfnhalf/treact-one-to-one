@@ -758,3 +758,69 @@ TESTIMONIALS
 .fa-arrow-left, .fa-arrow-right {
     color: #6415ff;
 }
+
+/* 
+
+START
+
+*/
+
+.start__card {
+    background-color: rgb(100, 21, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 0;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.start__row {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+}
+
+.start__title {
+    color: #f7fafc;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+.start__buttons {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start__button {
+    padding: 20px 40px;
+    font-size: 16px;
+    color: #f7fafc;
+    line-height: 1.5;
+}
+
+.start__button:nth-child(1) {
+    background-color: #f56565;
+    margin-right: 32px;
+}
+
+.start__button:hover:nth-child(1) {
+    background-color: rgba(229, 62, 62);
+}
+
+.start__button:nth-child(2) {
+    border: 1px solid rgb(160, 174, 192);
+}
+
+.start__button:hover:nth-child(2) {
+    background-color: #f7fafc;
+    color: rgba(100, 21, 255);
+}
