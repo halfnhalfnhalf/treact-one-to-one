@@ -289,6 +289,8 @@ FEATURES
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .feature {
@@ -551,8 +553,7 @@ PRICING
 
 .plans {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 
@@ -650,6 +651,8 @@ PRICING
 
 .plan:nth-child(2) {
     background: linear-gradient(135deg, rgb(76, 81, 191), rgb(102, 126, 234));
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .plan:nth-child(2) .plan__middle {
@@ -854,6 +857,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 20%;
 }
 
 .footer__column--title {
@@ -941,4 +945,205 @@ footer {
     height: 16px;
     width: 16px;
     font-size: 14px;
+}
+
+/* 
+
+Responsiveness
+
+*/
+
+@media (max-width: 1280px) {
+    h1 {
+        font-size: 36px;
+    }
+    .header__description--para {
+        font-size: 16px;
+    }
+    .header__img--wrapper {
+        max-width: 512px;
+    }
+
+    .testimonials__img {
+        width: 40%;
+    }
+    .testimonials__description {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1028px) {
+    header .row {
+        flex-direction: column;
+    }
+    .header__description {
+        width: 60%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .header__description--para {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .header__customers {
+        padding-right: 0;
+        margin-bottom: 40px;
+    }
+    .header__customers--title {
+        margin-top: 40px;
+    }
+
+    .features {
+        max-width: 786px;
+    }
+    .feature {
+        width: 45%;
+        padding: 32px 8px;
+        margin: 0 16px;
+    }
+    .feature__para {
+        max-width: none;
+    }
+
+    #quality .section__title, #steps .section__title, #values .section__title, #testimonials .section__title {
+        font-size: 36px;
+    }
+
+    .section__para {
+        font-size: 16px;
+    }
+    .section__title {
+        text-align: center;
+    }
+
+    .values__list {
+        flex-direction: column;
+    }
+    .value__para {
+        max-width: 300px;
+    }
+
+    .plans {
+        flex-wrap: wrap;
+    }
+    .plan {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .start__row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .start__title {
+        width: 100%;
+        max-width: 500px;
+    }
+    .start__buttons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section__para {
+        font-size: 14px;
+    }
+
+    .feature {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    #quality .row {
+        flex-direction: column-reverse;
+    }
+    .quality__img--wrapper {
+        width: 70%;
+        margin-bottom: 64px;
+    }
+    .quality__description {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #steps .row {
+        flex-direction: column;
+    }
+    .steps__img--wrapper {
+        width: 70%;
+    }
+    .steps__grid {
+        width: 20%;
+    }
+    .steps__description {
+        text-align: center;
+        padding: 0;
+        width: 100%;
+        margin-top: 64px;
+    }
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step__number {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    #values .row {
+        flex-direction: column-reverse;
+    }
+    .values__img {
+        width: 70%;
+        margin-bottom: 32px;
+    }
+    .values__description {
+        text-align: center;
+        width: 100%;
+        max-width: 450px;
+        padding-right: 0;
+    }
+    .values__list {
+        align-items: center;
+    }
+    .value__title {
+        margin: 0 auto;
+    }
+
+    #testimonials .row {
+        flex-direction: column;
+    }
+    .testimonials__img {
+        width: 70%;
+        margin-bottom: 32px;
+    }
+    .testimonials__description {
+        text-align: center;
+        padding-left: 0;
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .footer__columns {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__column {
+        width: 25%;
+        margin-top: 32px;
+        align-items: center;
+    }
+    .footer__bottom {
+        flex-direction: column;
+    }
+    .footer__logo, .footer__copyright {
+        margin-bottom: 32px;
+    }
 }
