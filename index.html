@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Treact one-to-one</title>
     <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/594151056d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -22,6 +23,22 @@
                     <a href="#" class="nav__link">Contact Us</a>
                     <a href="#" class="nav__link login">Login</a>
                     <a href="#" class="nav__link nav__link--primary">Sign Up</a>
+                </div>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu__card">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-close"></i>
+                    </button>
+                    <div class="menu__links">
+                        <a href="#" class="menu__link">About</a>
+                        <a href="#" class="menu__link">Blog</a>
+                        <a href="#" class="menu__link">Pricing</a>
+                        <a href="#" class="menu__link">Contact Us</a>
+                        <a href="#" class="menu__link login">Login</a>
+                        <a href="#" class="menu__link nav__link--primary">Sign Up</a>
+                    </div>
                 </div>
             </div>
         </nav>
