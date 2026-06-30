@@ -622,6 +622,12 @@ PRICING
     color: white;
     font-weight: 700;
     letter-spacing: 1.5px;
+    transition: all 300ms ease;
+}
+
+.plan__button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px 2px rgb(0, 0, 0, 0.1);
 }
 
 .plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
@@ -742,6 +748,11 @@ TESTIMONIALS
     font-size: 16px;
     border-radius: 500px;
     padding: 12px;
+    transition: all 300ms ease;
+}
+
+.testimonial__button:hover {
+    background-color: rgb(229, 231, 235);
 }
 
 .fa-arrow-left, .fa-arrow-right {
