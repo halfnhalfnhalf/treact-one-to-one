@@ -36,6 +36,7 @@ h1 {
     color: #1a202c;
     font-size: 48px;
     line-height: 1.25;
+    letter-spacing: 1.6px;
 }
 
 p {
@@ -186,7 +187,7 @@ HEADER
 
 header .row {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -200,6 +201,7 @@ header .row {
 
 .header__description--para {
     margin: 32px 0;
+    letter-spacing: .2px;
 }
 
 .header__email {
@@ -298,10 +300,13 @@ FEATURES
 
 .feature__img--wrapper {
     padding: 20px;
+    border: 2px solid #e4ebf2;
+    border-radius: 50%;
 }
 
 .feature__img {
     width: 24px;
+    height: 24px;
 }
 
 .feature__text {
@@ -834,6 +839,7 @@ FOOTER
 footer {
     background-color: rgb(100, 21, 255);
     padding: 96px 32px;
+    margin-top: 96px;
 }
 
 .footer__columns {
@@ -902,6 +908,7 @@ footer {
     font-size: 20px;
     font-weight: 900;
     margin-left: 8px;
+    letter-spacing: 1px;
 }
 
 .footer__copyright {
@@ -933,4 +940,5 @@ footer {
 .footer__social--link i {
     height: 16px;
     width: 16px;
+    font-size: 14px;
 }
