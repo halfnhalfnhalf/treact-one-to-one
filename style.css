@@ -649,3 +649,51 @@ PRICING
 .plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
     background: linear-gradient(90deg, rgb(245, 101, 101), rgb(254, 178, 178));
 }
+
+/* 
+
+TESTIMONIALS
+
+*/
+
+#testimonials .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonials__img {
+    width: 50%;
+}
+
+.testimonials__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+}
+
+.testimonial {
+    margin-top: 40px;
+}
+
+.fa-star {
+    color: rgb(246 173 85);
+    width: 20px;
+    height: 20px;
+}
+
+.testimonial__title {
+    margin-top: 16px;
+    color: #4a5568;
+    font-size: 20px;
+}
+
+.testimonial__para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-top: 16px;
+    color: rgb(74 85 104);
+    margin-bottom: 32px;
+}
